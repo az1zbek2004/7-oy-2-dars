@@ -25,7 +25,7 @@ function Cart(props) {
             </>
             : cart.map((el, index) => {
               return (
-                <Savat key={index} data={el} setCart={setCart} setCount={props.setCount()}></Savat>
+                <Savat key={index} data={el} setCart={setCart} setCount={props.setCount}></Savat>
               )
             })
           }
